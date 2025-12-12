@@ -1,6 +1,6 @@
 const adminAuthentication = (req, res, next) => {
   console.log("Auth checking...");
-  const token = "ABCD";
+  const token = "ABC";
   if (token === "ABC") {
     console.log("Auth check success");
     next();
